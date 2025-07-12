@@ -38,4 +38,40 @@ dataset/
 
 ## Annotation Information
 - circle/: Contains images with circle annotations 
-- no_circle/: Contains images without circle annotations 
+- no_circle/: Contains images without circle annotations
+
+## Training
+
+This dataset is designed for training vision-language models for rovi task following. The training process follows the methodology established by [LLaVA](https://github.com/haotian-liu/LLaVA) for visual instruction tuning.
+
+
+### Data Format
+
+The dataset follows the LLaVA format with the following structure in `dataset_llava.json`:
+
+```json
+{
+  "id": "unique_id",
+  "image": "path/to/image.jpg",
+  "conversations": [
+        {
+      "from": "human",
+      "value": "Instruction or question about the robotic task" // default prompt for system
+    },
+    {
+      "from": "gpt", 
+      "value": "Expected response or action description"
+    }
+  ]
+}
+```
+
+
+### Getting Started
+
+1. Install the LLaVA framework following the [official guide](https://github.com/haotian-liu/LLaVA)
+2. Prepare the RoVI-Book dataset in the required format
+3. Use a pre-trained vision-language model (e.g., LLaVA-7B or LLaVA-13B)
+4. Fine-tune on the RoVI instruction data
+
+For detailed training scripts and configurations, please refer to the [LLaVA repository](https://github.com/haotian-liu/LLaVA). 
