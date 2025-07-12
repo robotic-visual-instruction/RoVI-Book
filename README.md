@@ -52,7 +52,7 @@ The dataset follows the LLaVA format with the following structure in `dataset_ll
 ```json
 {
   "id": "unique_id",
-  "image": "path/to/image.jpg",
+  "image": "path/to/image.jpg", // contains rovi's visual instruction
   "conversations": [
         {
       "from": "human",
@@ -60,7 +60,7 @@ The dataset follows the LLaVA format with the following structure in `dataset_ll
     },
     {
       "from": "gpt", 
-      "value": "Expected response or action description"
+      "value": "Expected response or action description" // contains planning and function code
     }
   ]
 }
