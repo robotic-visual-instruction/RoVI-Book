@@ -1,5 +1,9 @@
 # RoVI-Book Dataset
 
+![RoVI-Book Dataset Example](images/screenshot-20250712-184944.png)
+
+This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset [13]. The bottom displays the proportion of each task type.
+
 ## Introduction
 RoVI-Book is a dataset focused on robotic manipulation and visual understanding for robotic visual instruction. The dataset contains a large collection of sequential images capturing robot operations, covering both single-step and multi-step manipulation scenarios.
 
