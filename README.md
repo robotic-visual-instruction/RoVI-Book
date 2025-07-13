@@ -6,7 +6,10 @@
   <p>Official dataset for <a href="https://robotic-visual-instruction.github.io/">Robotic Visual Instruction</a></p>
 </div>
 
-![RoVI-Book Dataset Example](images/screenshot-20250712-184944.png)
+<div align="center">
+  <img src="images/screenshot-20250713-141819.png" alt="RoVI Dataset Example" height="300" style="margin-right: 10px;">
+  <img src="images/screenshot-20250712-184944.png" alt="RoVI-Book Dataset Example" height="300">
+</div>
 
 This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset. The bottom displays the proportion of each task type.
 
