@@ -2,7 +2,7 @@
 
 ![RoVI-Book Dataset Example](images/screenshot-20250712-184944.png)
 
-This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset [13]. The bottom displays the proportion of each task type.
+This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset. The bottom displays the proportion of each task type.
 
 ## Introduction
 RoVI-Book is a dataset focused on robotic manipulation and visual understanding for robotic visual instruction. The dataset contains a large collection of sequential images capturing robot operations, covering both single-step and multi-step manipulation scenarios.
@@ -25,15 +25,7 @@ dataset/
 
 ```
 
-## Dataset Features
-- Contains both single-step and multi-step operation sequences
-- Provides annotated and unannotated versions of images
-- Covers various robotic manipulation scenarios:
-  - Object manipulation
-  - Container handling
-  - Tool usage
-  - Object flipping
-  - Drawer operations and more
+
 
 ## Image Categories
 1. Multi-step Operation Images: Recording complete operation sequences
@@ -79,3 +71,11 @@ The dataset follows the LLaVA format with the following structure in `dataset_ll
 4. Fine-tune on the RoVI instruction data
 
 For detailed training scripts and configurations, please refer to the [LLaVA repository](https://github.com/haotian-liu/LLaVA). 
+
+## Keypoint Dataset
+
+This dataset also provides keypoint annotations for training keypoint detection modules using YOLOv8. The keypoint dataset is specifically designed for rovi task extracting keypoints of the arrow or circle. These point structures contain key information during the manipulation process. For detailed training instructions of the keypoint module, please refer to [YOLOv8 documentation](https://docs.ultralytics.com/zh/models/yolov8/#how-do-i-train-a-yolov8-model).
+
+### Dataset Access
+
+The keypoint dataset is available on Hugging Face: [yanbang/rovibook](https://huggingface.co/datasets/yanbang/rovibook/tree/main)
