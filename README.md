@@ -1,5 +1,6 @@
 # RoVI-Book Dataset
 
+![RoVI-Book Dataset Example](images/screenshot-20250529-123740.png)
 <div align="center">
   <h3>🎉 <strong>CVPR 2025</strong> 🎉</h3>
   <p>Official dataset for <a href="https://robotic-visual-instruction.github.io/">Robotic Visual Instruction</a></p>
