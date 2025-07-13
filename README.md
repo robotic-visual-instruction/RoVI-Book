@@ -80,7 +80,7 @@ For detailed training scripts and configurations, please refer to the [LLaVA rep
 
 ## Keypoint Dataset
 
-![YOLOv8 Keypoint Detection](screenshot-20250713-141819.png)
+![YOLOv8 Keypoint Detection](screenshot-20250713-143034.png)
 
 This dataset also provides keypoint annotations for training keypoint detection modules using YOLOv8. The keypoint dataset is specifically designed for rovi task extracting keypoints of the arrow or circle. These point structures contain key information during the manipulation process. For detailed training instructions of the keypoint module, please refer to [YOLOv8 documentation](https://docs.ultralytics.com/zh/models/yolov8/#how-do-i-train-a-yolov8-model).
 
