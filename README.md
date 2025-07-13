@@ -1,5 +1,10 @@
 # RoVI-Book Dataset
 
+<div align="center">
+  <h3>🎉 <strong>CVPR 2025</strong> 🎉</h3>
+  <p>Official dataset for <a href="https://robotic-visual-instruction.github.io/">Robotic Visual Instruction</a></p>
+</div>
+
 ![RoVI-Book Dataset Example](images/screenshot-20250712-184944.png)
 
 This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset. The bottom displays the proportion of each task type.
