@@ -6,10 +6,7 @@
   <p>Official dataset for <a href="https://robotic-visual-instruction.github.io/">Robotic Visual Instruction</a></p>
 </div>
 
-<div align="center">
-  <img src="images/screenshot-20250713-141819.png" alt="RoVI Dataset Example" height="300" style="margin-right: 10px;">
-  <img src="images/screenshot-20250712-184944.png" alt="RoVI-Book Dataset Example" height="300">
-</div>
+![RoVI-Book Dataset Example](images/screenshot-20250712-184944.png)
 
 This is an example to demonstrate the RoVI Book dataset, adapted from the Open-X Embodiments dataset. The bottom displays the proportion of each task type.
 
@@ -83,10 +80,7 @@ For detailed training scripts and configurations, please refer to the [LLaVA rep
 
 ## Keypoint Dataset
 
-<div align="center">
-  <img src="images/screenshot-20250713-141819.png" alt="Keypoint Dataset Example" height="300" style="margin-right: 10px;">
-  <img src="images/screenshot-20250713-132018.png" alt="YOLOv8 Keypoint Detection" height="300">
-</div>
+![YOLOv8 Keypoint Detection](images/screenshot-20250713-132018.png)
 
 This dataset also provides keypoint annotations for training keypoint detection modules using YOLOv8. The keypoint dataset is specifically designed for rovi task extracting keypoints of the arrow or circle. These point structures contain key information during the manipulation process. For detailed training instructions of the keypoint module, please refer to [YOLOv8 documentation](https://docs.ultralytics.com/zh/models/yolov8/#how-do-i-train-a-yolov8-model).
 
