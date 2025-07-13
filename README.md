@@ -44,7 +44,7 @@ dataset/
 
 ## Training
 
-This dataset is designed for training vision-language models for rovi task following. The training process follows the methodology established by [LLaVA](https://github.com/haotian-liu/LLaVA) for visual instruction tuning.
+This dataset is designed for training vision-language models for rovi task following. We finetune LLaVA-1.5 in our experiments. The training process follows the methodology established by [LLaVA](https://github.com/haotian-liu/LLaVA) for visual instruction tuning.
 
 
 ### Data Format
